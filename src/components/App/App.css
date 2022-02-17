@@ -1,0 +1,94 @@
+body {
+  background-color: #172b4d;
+  margin-top: 8%;
+  text-align: center;
+}
+p{
+  margin-top: -1%;
+  color: white;
+}
+
+input {
+  background-color: #fff !important;
+  border-radius: 40px !important;
+  width: 30% !important;
+  padding: 0px 15px !important;
+  margin-top: 40x;
+}
+
+input:focus {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+label {
+  display: block;
+  margin-left: -20%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: #fff !important;
+  font-size: 1rem !important;
+}
+
+.calculate-btn {
+  background-color: #3f51b5;
+  padding: 15px 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 44px;
+  cursor: pointer;
+  border: 1px solid #3f51b5;
+  margin-bottom: 40px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.calculate-btn:hover {
+  background-color: #fff;
+  transform: translate(0px, -2px);
+  color: #5364c3;
+  box-shadow: 0px 15px 30px -12px rgba(255, 255, 255, 0.2);
+}
+
+.calculate-btn:focus {
+  background-color: #32408f;
+}
+
+.calculate-btn:focus:hover {
+  color: white;
+}
+
+.calculate-btn:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+.calculate-btn:disabled:hover {
+  box-shadow: none;
+  transform: translate(0, 0);
+}
+
+.data-container {
+  background-color: #1f3a67;
+  border-radius: 11px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  background-color: #274881 !important;
+  color: white;
+}
+
+.card-title {
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+.card-data {
+  display: flex;
+  justify-content: space-around;
+}
